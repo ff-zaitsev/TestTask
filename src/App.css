@@ -1,0 +1,12 @@
+html, body {
+    width: 100%;
+}
+#page {
+    width: 414px;
+}
+
+@media all and (min-width: 320px) and (max-width: 414px) {
+    #page {
+        width: 100%;
+    }
+}
